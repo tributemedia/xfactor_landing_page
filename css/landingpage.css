@@ -1,0 +1,23 @@
+.no-navigation .main-navigation-wrapper,
+.no-navigation .secondary-wrapper {
+  display: none !important;
+}
+
+.no-navigation .top-wrapper.wo-navigation {
+  padding-top: 50px;
+}
+
+@media screen and (min-width:992px) {
+	
+  .side-by-side .field-name-body {
+    width: 50%;
+    float: left;
+    padding: 0 20px 0 0;
+	}
+  .side-by-side .node-landing-page form {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}

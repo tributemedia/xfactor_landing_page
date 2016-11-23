@@ -1,0 +1,46 @@
+<?php
+/**
+ * @file
+ * Code for the Xfactor Landing Page feature.
+ */
+
+include_once 'xfactor_landing_page.features.inc';
+
+// // =====================
+// // = Add Node Template =
+// // =====================
+
+// /**
+// * Implements hook_theme().
+// */
+// function product_catalog_theme($existing, $type, $theme, $path) {
+//  $theme = array();
+//  $theme['node__catalog_product'] = array(
+//    'render element' => 'content',
+//    'base hook' => 'node',
+//    'template' => 'node--catalog_product',
+//    'path' => drupal_get_path('module', 'product_catalog') . '/templates',
+//  );
+//  return $theme;
+// }
+// // =====================
+// // = Add Page Template =
+// // =====================
+
+// /**
+// * Implements hook_theme().
+// */
+
+// function xfactor_landing_page_theme($existing, $type, $theme, $path){
+// 	$theme = array();
+// 	$theme['page__landing_page'] =  array(
+// 		'render element' =>  'content', 
+// 		//'render element' =>  'content', ??
+// 		'base hook' => 'node',
+// 		//'base hook' => 'page', ??
+// 		'template' => 'page--landing-page',
+// 		'path' => drupal_get_path('module', 'xfactor_landing_page'). '/templates'
+// 		);
+
+// 	return $theme;
+// }

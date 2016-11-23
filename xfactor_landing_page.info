@@ -1,0 +1,25 @@
+name = Xfactor Landing Page
+description = This feature is designed for Bento base_theme. 
+core = 7.x
+package = Features
+version = 7.x-1.0-beta
+project = xfactor_landing_page
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = field_sql_storage
+dependencies[] = list
+dependencies[] = metatags_quick
+dependencies[] = node
+dependencies[] = options
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = node-landing_page-body
+features[field][] = node-landing_page-field__meta_description
+features[field][] = node-landing_page-field_form_stacked
+features[field][] = node-landing_page-field_remove_navigation
+features[field][] = node-landing_page-meta_copyright
+features[field][] = node-landing_page-meta_keywords
+features[field_group][] = group_meta|node|landing_page|form
+features[node][] = landing_page
+
+stylesheets[all][] = css/landingpage.css 
